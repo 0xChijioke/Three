@@ -2,11 +2,6 @@
     "build": {
       "env": {
         "CI": "true"
-      },
-      "scripts": {
-        "lint": "echo 'Linting step skipped'",
-        "preinstall": "echo 'Preinstall step skipped'",
-        "type-check": "echo 'Type checking step skipped'"
       }
     }
   }
