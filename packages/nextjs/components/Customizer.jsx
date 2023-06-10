@@ -43,7 +43,7 @@ const Customizer = () => {
 
 
 
-  const handleDecals = (type: keyof typeof DecalTypes, result: string) => {
+  const handleDecals = (type, result) => {
     const decalType = DecalTypes[type];
 
     state[decalType.stateProperty] = result;
