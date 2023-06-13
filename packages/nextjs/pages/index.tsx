@@ -1,7 +1,11 @@
 import Head from "next/head";
 import type { NextPage } from "next";
-import  { CanvasModel, Customizer, Hero } from "~~/components/";
-
+import  { Customizer, Hero } from "~~/components/";
+import dynamic from "next/dynamic";
+const CanvasModel  = dynamic(
+  () => import("~~/components/canvas/CanvasModel"),
+  { ssr: false }
+);
 const Home: NextPage = () => {
   return (
     <>

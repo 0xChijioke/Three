@@ -1,4 +1,46 @@
-# 🏗 Scaffold-ETH 2
+# 🏗 Scaffold-ETH 2 & 3d
+
+
+  This is an active development project exploring the capabilities of React-Three in the browser. The goal of this project is to create an interactive 3D experience using scaffold-eth-2, Three.js, and related libraries.
+
+
+  # Features
+
+    Shirt Customization: The app allows you to customize a virtual shirt by applying decals and adjusting colors. 
+    NOTE: Have been having issues with Decal and nextjs, it works fine on local dev, but when on vercel, I get a Decal must have a mesh parent error. which it does. This is were I'm at incase you have a work around, please let me know
+
+
+
+  # Setup
+
+    To set up the project locally, follow these steps:
+
+        Clone the repository: git clone https://github.com/0xChijoke/Three
+        Navigate to the project directory: cd Three
+        Install dependencies: yarn install
+        Start the development server: yarn start
+        Open your browser and visit http://localhost:3000 to see the app running.
+
+  #  Usage
+
+        Upon loading the app, you will see a 3D canvas displaying a virtual shirt.
+        Customize the shirt by selecting different options available.
+        Apply decals by toggling the "Full Texture" and "Logo Texture" buttons.
+        Adjust the color of the shirt using the color picker.
+        Interact with the 3D scene by dragging and rotating the shirt.
+        Explore different possibilities and continue developing new features to enhance the app.
+
+    This project is currently under active development, and the following features are planned:
+
+        Additional customization options (patterns, textures, etc.)
+        Enhanced camera controls and animations
+        Improved performance optimizations
+        Integration with external APIs or data sources
+        Support for mobile and touch devices
+
+    Please note that the roadmap is subject to change as new ideas and possibilities are explored.
+
+   # About Scaffold-eth-2
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 

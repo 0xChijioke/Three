@@ -24,11 +24,11 @@ html {
 }
 
 .home-content {
-  @apply flex-1 xl:justify-center justify-start flex flex-col gap-10;
+  @apply flex-1 xl:justify-center text-[#060506] justify-start flex flex-col gap-10;
 }
 
 .head-text {
-  @apply xl:text-[6rem] text-[4em] xl:leading-[6rem] leading-[7rem] font-black text-[#201b23];
+  @apply xl:text-[6rem] text-[4em] xl:leading-[6rem] leading-[7rem] font-black text-[#060506];
 }
 
 .download-btn {
@@ -40,7 +40,7 @@ html {
 }
 
 .filtertabs-container {
-  @apply absolute z-10 bottom-5 right-0 left-0 w-full flex justify-center items-center flex-wrap gap-4;
+  @apply absolute z-10 bottom-32 lg:bottom-5 right-0 left-0 w-full flex justify-center items-center flex-wrap gap-4;
 }
 
 .aipicker-container {

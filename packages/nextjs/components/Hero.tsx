@@ -3,7 +3,7 @@ import state from "../store"
 import { useSnapshot } from "valtio";
 import {
   headContainerAnimation,
-  headContentAnimation,
+  // headContentAnimation,
   headTextAnimation,
   slideAnimation
 } from "../config/motion";
